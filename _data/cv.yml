@@ -2,96 +2,113 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yasir Suhail, PhD
+    - name: Position
+      value: Assistant Professor, University of Connecticut Health Center
+    - name: Email
+      value: yasir.suhail@uconn.edu
+    - name: Research Interests
+      value: Computational modeling at cellular and tissue levels; AI over interaction networks for prognostics and -omics data; statistical models for heterotypic datasets
+    - name: Funding
+      value: NIH K99-R00 Pathway to Independence Award; total extramural funding $1,057,876
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Biomedical Engineering
+      institution: Johns Hopkins University, Baltimore, MD
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Built statistical mathematical models of biological systems at the protein interaction and paracrine communication levels.
+        - Developed a quantitative model to reconstruct cell secretion dynamics on a microfabricated device, with information-theoretic bounds on the variance.
+        - Developed graph theoretical models to predict novel interactions in protein interaction networks.
+    - title: MS, Electrical Engineering
+      institution: Michigan State University, East Lansing, MI
+      year: 2005
       description:
-        - Description 1.
-        - Description 2.
+        - Developed and quantitatively validated signal processing algorithms to record and compress neuronal electrical spike signals in implantable neural electrode arrays.
+    - title: B.Tech, Electrical Engineering
+      institution: Indian Institute of Technology Delhi, New Delhi, India
+      year: 2003
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Assistant Professor
+      institution: University of Connecticut Health Center, Farmington, CT
+      year: 2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing prognostic models for maternal-fetal disease such as pre-eclampsia using stromal transcriptomics, with semi-supervised learning on large single cell RNAseq and graph neural networks.
+        - Developing a class of -omics based cellular transcriptional-phenotypic fibroblast cell models that relate fibroblast transcriptional states to systemic disease states.
+    - title: Postdoctoral Associate
+      institution: University of Connecticut Health Center, Farmington, CT
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Investigated maternal-fetal disorders using spatial single cell transcriptomics from patient samples from the UConn Health biorepository.
+        - Developed graph convolution deep learning models integrating transcriptional profiles, genetic perturbations and cellular phenotype assays.
+    - title: Postdoctoral Associate
+      institution: University of Connecticut, Storrs, CT
+      year: 2018 - 2024
       description:
+        - Investigated comparative transcriptomics and gene regulatory mechanisms underlying the evolved resistance to invasion in stroma, with applications to placental disorders such as placenta accreta and preeclampsia.
+        - Bioinformatics investigations of the effect of oscillatory hypoxic dynamics in cancer and fibroblast cells.
+    - title: Postdoctoral Associate
+      institution: Yale University, New Haven, CT
+      year: 2018
+      description:
+        - Identified the signaling niches necessary for lung development using single cell transcriptomics.
+    - title: Postdoctoral Associate
+      institution: Johns Hopkins University, Baltimore, MD
+      year: 2017
+      description:
+        - Studied the role of E-cadherin in the metastasis of breast cancer using transcriptomic analysis.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Grants Awarded
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "R00HD105973, NICHD (sole PI): $747,000"
+      year: 2025 - 2028
+      description:
+        - Development of a variational autoencoder generative AI model for prognosticating maternal-fetal disorders of pre-eclampsia and fetal growth disorders.
+    - title: "Connecticut Lion's Eye Research Foundation (co-investigator): $35,520"
+      year: 2025 - 2026
+      description:
+        - Spatial transcriptomic analysis of Proteoglycan 4 (PRG4) deficient mouse retina, towards recombinant human PRG4 as a treatment for dry AMD.
+    - title: "K99HD105973, NICHD (sole PI): $237,840"
+      year: 2022 - 2025
+      description:
+        - Mapping inter-cellular trophoblast-decidual signaling to its effects on invasion related maternal-fetal diseases.
+    - title: "K99HD105973S21, NICHD (sole PI): $73,036"
+      year: 2024
+      description:
+        - Spatial transcriptomics and investigation of primary placenta accreta patient tissue samples.
 
-- title: Honors and Awards
+- title: Invited Talks
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Prioritizing gene regulatory mechanisms for a complex phenotype using multiple species
+      institution: Center for Cell Analysis and Modeling, UConn Health
+      year: 2020
+    - title: Variance Estimates for an Unbiased Random Sample Strategy Based Fatality Rate for COVID-19
+      institution: Office of Biostatistics and Epidemiology, CBER, FDA
+      year: 2020
+    - title: Panel discussion, Workshop on Cancer and Embryo Development
+      institution: Arizona State University
+      year: 2020
+    - title: Deconvolution of paracrine signaling dynamics using a microprinted antibody arrays
+      institution: Center for Cell Analysis and Modeling, UConn Health
+      year: 2018
+    - title: De-novo Brassica napus transcriptome assembly
+      institution: Colorado State University
+      year: 2014
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Peer Reviewing
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Journal of Neuroscience Methods
+    - International Journal of Molecular Sciences
+    - Biotechniques
+    - PLoS One
+    - The Yale Journal of Biology and Medicine
+    - Network Modeling Analysis in Health Informatics and Bioinformatics
+    - Genes
