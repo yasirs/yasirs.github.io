@@ -1,0 +1,19 @@
+{% if site.data.figure_credits %}
+  <details class="figure-credits">
+    <summary>Figure credits</summary>
+    <p>
+      Thumbnails and project figures on this site are taken from the open-access articles listed below, under the Creative Commons license shown.
+      Where a license forbids derivatives the image is only resized, and where it allows adaptation an image may be cropped to one panel. Please see
+      each article for the original figure and its full legend.
+    </p>
+    <ul>
+      {% for credit in site.data.figure_credits %}
+        <li>
+          {{ credit.citation }}
+          <a href="https://doi.org/{{ credit.doi }}">doi:{{ credit.doi }}</a>
+          ({{ credit.license }})
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+{% endif %}

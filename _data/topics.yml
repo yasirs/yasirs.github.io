@@ -1,0 +1,30 @@
+- slug: placenta
+  label: Placenta & pregnancy
+  description: Placental invasion, trophoblasts, decidua, pre-eclampsia and placenta accreta
+- slug: stroma
+  label: Stroma & invasion
+  description: Fibroblasts, extracellular matrix and how stroma resists or enables invasion in cancer and pregnancy
+- slug: hypoxia
+  label: Hypoxia & HIF-1
+  description: Low and oscillating oxygen, and how HIF-1 dynamics shape gene expression and outcomes
+- slug: evolution
+  label: Evolutionary genomics
+  description: Cross-species comparison of regulatory changes behind derived traits
+- slug: omics
+  label: Single-cell & spatial omics
+  description: Single-cell, spatial and bulk transcriptomics
+- slug: ml
+  label: Machine learning & AI
+  description: Generative models, graph neural networks, classifiers and clustering
+- slug: methods
+  label: Methods & models
+  description: Network, statistical and mathematical methods for biological data
+- slug: communication
+  label: Cell-cell communication
+  description: Paracrine signaling, secretomes and intercellular transfer
+- slug: neural
+  label: Neural engineering
+  description: Signal processing and hardware for implantable neural interfaces
+- slug: other
+  label: Collaborations
+  description: Collaborative work in tissue engineering, eye biology, plant biology and other areas
