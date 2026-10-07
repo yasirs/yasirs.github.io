@@ -1,0 +1,5 @@
+<div class="topic-tags">
+  {% for topic in site.data.topics %}
+    <a class="topic-chip" href="{{ '/publications/' | relative_url }}?topic={{ topic.slug }}" title="{{ topic.description }}">{{ topic.label }}</a>
+  {% endfor %}
+</div>
