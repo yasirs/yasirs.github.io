@@ -5,6 +5,18 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
+    {% if page.topics %}
+      <div class="topic-tags">
+        {% for topic_slug in page.topics %}
+          {% assign topic = site.data.topics | where: 'slug', topic_slug | first %}
+          {% if topic %}
+            <a class="topic-chip" href="{{ '/publications/' | relative_url }}?topic={{ topic_slug }}" title="{{ topic.description }}">
+              {{- topic.label -}}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </header>
 
   <article>

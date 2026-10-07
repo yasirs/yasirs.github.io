@@ -1,0 +1,64 @@
+- key: Du2026
+  citation: "Du et al., Journal of Reproduction and Development (2026)"
+  doi: "10.1262/jrd.2025-136"
+  license: "CC BY-NC-ND"
+- key: Afzal2025
+  citation: "Afzal et al., Proceedings of the National Academy of Sciences (2025)"
+  doi: "10.1073/pnas.2323038122"
+  license: "CC BY-NC-ND"
+- key: Suhail2025b
+  citation: "Suhail et al., npj Systems Biology and Applications (2025)"
+  doi: "10.1038/s41540-025-00577-z"
+  license: "CC BY"
+- key: Qiu2025
+  citation: "Qiu et al., npj Systems Biology and Applications (2025)"
+  doi: "10.1038/s41540-025-00612-z"
+  license: "CC BY"
+- key: Novin2024
+  citation: "Novin et al., Cancers (2024)"
+  doi: "10.3390/cancers16050969"
+  license: "CC BY"
+- key: Du2024
+  citation: "Du et al., Nature Communications (2024)"
+  doi: "10.1038/s41467-024-52351-0"
+  license: "CC BY"
+- key: Du2024b
+  citation: "Du et al., Mechanobiology in Medicine (2024)"
+  doi: "10.1016/j.mbm.2024.100070"
+  license: "CC BY-NC-ND"
+- key: Villiers2024
+  citation: "Villiers et al., Stress Biology (2024)"
+  doi: "10.1007/s44154-024-00169-7"
+  license: "CC BY"
+- key: Ma2022
+  citation: "Ma et al., Evolution, Medicine and Public Health (2022)"
+  doi: "10.1093/emph/eoac036"
+  license: "CC BY"
+- key: Liu2022
+  citation: "Liu et al., Cancers (2022)"
+  doi: "10.3390/cancers14092197"
+  license: "CC BY"
+- key: Menon2022
+  citation: "Menon et al., International Journal of Molecular Sciences (2022)"
+  doi: "10.3390/ijms232112711"
+  license: "CC BY"
+- key: Suhail2022
+  citation: "Suhail et al., Proceedings of the National Academy of Sciences of the United States of America (2022)"
+  doi: "10.1073/pnas.2111256119"
+  license: "CC BY-NC-ND"
+- key: Suhail2021
+  citation: "Suhail et al., Journal of Clinical Medicine (2021)"
+  doi: "10.3390/jcm10040595"
+  license: "CC BY"
+- key: Suhail2021b
+  citation: "Suhail et al., BMC Medical Research Methodology (2021)"
+  doi: "10.1186/s12874-020-01196-4"
+  license: "CC BY"
+- key: Suhail2020
+  citation: "Suhail et al., Bioengineering (2020)"
+  doi: "10.3390/bioengineering7020055"
+  license: "CC BY"
+- key: Raredon2019
+  citation: "Raredon et al., Science Advances (2019)"
+  doi: "10.1126/sciadv.aaw3851"
+  license: "CC BY-NC"

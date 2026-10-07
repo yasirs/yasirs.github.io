@@ -27,4 +27,8 @@ I received my PhD in Biomedical Engineering from Johns Hopkins University (2017)
 
 **Interests:** computational modeling at cellular and tissue levels; AI over interaction networks for prognostics and -omics data; statistical models for heterotypic datasets.
 
+**Research areas** (each links to the matching papers):
+
+{% include research_chips.liquid %}
+
 See my [publications](/publications/), [projects](/projects/) and [CV](/cv/), or my [Google Scholar profile](https://scholar.google.com/citations?user=2yVp-9oAAAAJ).

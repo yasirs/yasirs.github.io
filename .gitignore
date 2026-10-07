@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# private working files (papers etc.); only the README is tracked
+/_private/*
+!/_private/README.md

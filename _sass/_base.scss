@@ -1294,3 +1294,109 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// topic filter and topic tags (publications, about)
+.topic-hidden {
+  display: none !important;
+}
+
+.topic-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.25rem 0 1.25rem;
+}
+
+.topic-chip {
+  appearance: none;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  color: var(--global-text-color);
+  background: transparent;
+  border: 1px solid var(--global-text-color-light);
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+
+  .count {
+    opacity: 0.65;
+    margin-left: 0.15rem;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  &.active {
+    color: var(--global-bg-color);
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+.topic-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.publications ol.bibliography li .topics {
+  margin: 0.25rem 0 0.4rem;
+}
+
+.topic-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  padding: 0 0.55rem;
+  margin: 0 0.3rem 0.25rem 0;
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  border: 1px solid var(--global-text-color-light);
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+.figure-credits {
+  margin-top: 3rem;
+  font-size: 0.8125rem;
+  color: var(--global-text-color-light);
+
+  summary {
+    cursor: pointer;
+  }
+
+  ul {
+    padding-left: 1.25rem;
+  }
+}
+
+// figures inside project pages
+.project-figure {
+  margin: 1.5rem 0;
+
+  figcaption,
+  .caption {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.5rem;
+  }
+}
+
+// venue badges beside publications: white text on the venue colour
+.publications ol.bibliography li .abbr abbr {
+  color: #fff;
+  font-weight: 500;
+}
