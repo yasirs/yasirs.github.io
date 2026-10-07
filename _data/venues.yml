@@ -1,9 +1,107 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"BMC MRM":
+  color: "#5a4a99"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Bioengineering":
+  color: "#4c7d2b"
 
-"Vision":
-  color: "#009f36"
+"Bull Math Biol":
+  color: "#5a4a99"
+
+"CMBE":
+  color: "#5a4a99"
+
+"Cancers":
+  color: "#4c7d2b"
+
+"Cell Rep":
+  color: "#00796b"
+
+"Cell Syst":
+  color: "#00796b"
+
+"Cells Dev":
+  color: "#00796b"
+
+"Circulation":
+  color: "#b3262e"
+
+"EIT":
+  color: "#00629b"
+
+"EMBC":
+  color: "#00629b"
+
+"EMPH":
+  color: "#5f6b7a"
+
+"Genome Res":
+  color: "#7a1f5c"
+
+"Hum Cell":
+  color: "#5a4a99"
+
+"ICASSP":
+  color: "#00629b"
+
+"IJMS":
+  color: "#4c7d2b"
+
+"IOVS":
+  color: "#5f6b7a"
+
+"ISCAS":
+  color: "#00629b"
+
+"Integr Biol":
+  color: "#5f6b7a"
+
+"J Clin Med":
+  color: "#4c7d2b"
+
+"J Reprod Dev":
+  color: "#5f6b7a"
+
+"MMB":
+  color: "#00629b"
+
+"Mechanobiol Med":
+  color: "#5f6b7a"
+
+"Mol Carcinog":
+  color: "#8a5a00"
+
+"NER":
+  color: "#00629b"
+
+"Nat Chem Biol":
+  color: "#a4262c"
+
+"Nat Commun":
+  color: "#a4262c"
+
+"Nature":
+  color: "#a4262c"
+
+"Neurocomputing":
+  color: "#5f6b7a"
+
+"New Phytol":
+  color: "#8a5a00"
+
+"PNAS":
+  color: "#1d4f91"
+
+"Sci Adv":
+  color: "#a4262c"
+
+"Semin Orthod":
+  color: "#5f6b7a"
+
+"Stress Biol":
+  color: "#5a4a99"
+
+"TCAS-I":
+  color: "#00629b"
+
+"npj SBA":
+  color: "#a4262c"

@@ -1394,3 +1394,9 @@ ninja-keys::part(ninja-input-wrapper) {
     margin-top: 0.5rem;
   }
 }
+
+// venue badges beside publications: white text on the venue colour
+.publications ol.bibliography li .abbr abbr {
+  color: #fff;
+  font-weight: 500;
+}
